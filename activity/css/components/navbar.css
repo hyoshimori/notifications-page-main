@@ -1,0 +1,58 @@
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.notification{
+  font-weight: 700;
+  font-size: larger;
+  position: relative;
+}
+
+.icon{
+position: absolute;
+left: 130px;
+top: -3px;
+background-color: rgb(9, 51, 123);
+padding: 3px 8px;
+border-radius: 5px;
+color: white;
+}
+
+.mark-as-read{
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+}
+
+.mark-as-read:hover{
+  color: rgb(117, 117, 117);
+}
+
+@media (min-width: 960px) {
+
+  .nav-bar {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .nav-bar {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .nav-bar {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .nav-bar {
+    width: 440px;
+  }
+}

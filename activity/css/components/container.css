@@ -1,0 +1,117 @@
+.containers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-events{
+  color: rgb(130, 130, 130);
+}
+
+.link-to-events:hover{
+  color: #4F638C;
+}
+
+.link-to-profile:hover{
+  color: #4F638C;
+}
+
+.container{
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(130, 130, 130);
+  display: flex;
+}
+
+
+.color--light--blue{
+  background-color: #F6FAFD;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.time-stamp{
+  margin-top: 0px;
+  color: rgb(183, 183, 183);
+}
+
+.messages{
+  margin-bottom: 0px;
+}
+
+.black--color{
+  color: black;
+}
+
+.dot{
+  background-color: #F95353;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  display: inline;
+  margin-left: 10px;
+}
+
+.pull-down-message{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#added-message{
+  border: solid 1px rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.mark-as-read--white{
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.dot-read{
+  background-color: #09337A;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  display: inline;
+  margin-left: 10px;
+}
+
+
+@media (min-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 440px;
+  }
+}

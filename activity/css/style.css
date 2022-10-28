@@ -1,0 +1,28 @@
+@import url("./components/navbar.css");
+@import url("./components/container.css");
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+
+  .notification-body {
+    background-color: white;
+    padding: 10px 40px;
+  }
+  body{
+    background-color: #F6FAFD;
+  }
+}
